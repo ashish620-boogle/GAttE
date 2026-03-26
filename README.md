@@ -1,6 +1,5 @@
-# GAttE Reproduction Pipeline
-
-This repository contains a reproducible training and evaluation pipeline for the GAttE and M-GAttE location prediction models, together with BERT, spaCy, cross-validation, plotting, and ablation scripts.
+# GAttE
+This repository contains a training and evaluation pipeline for the GAttE and M-GAttE location prediction models, together with BERT, spaCy, cross-validation, plotting, and ablation scripts.
 
 The codebase is organized so you can either:
 
