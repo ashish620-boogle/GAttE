@@ -1,0 +1,5 @@
+extends: ../paper.yaml
+
+model:
+  use_attention: false
+  no_attention_mode: value_only_keep_q

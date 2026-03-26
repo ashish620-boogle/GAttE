@@ -1,0 +1,6 @@
+extends: ../paper.yaml
+
+model:
+  use_sentence_embedding: false
+  use_word_embedding: false
+  use_char_embedding: true

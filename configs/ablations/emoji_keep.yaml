@@ -1,0 +1,7 @@
+extends: ../paper.yaml
+
+paths:
+  processed_dir: data/processed/ablations/emoji_keep
+
+preprocess:
+  keep_emojis: true

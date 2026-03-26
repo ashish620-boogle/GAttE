@@ -1,0 +1,28 @@
+seed: 42
+train:
+  batch_size: 32
+  epochs: 1
+  lr: 0.001
+  lr_patience: 1
+  kfolds: 2
+  use_precomputed: true
+  resume_if_exists: true
+
+bert:
+  batch_size: 8
+  epochs: 1
+
+preprocess:
+  max_words: 32
+  max_chars_per_word: 32
+
+geocode:
+  verify_ssl: false
+  allow_insecure_fallback: true
+
+
+eval:
+  k_values: [1, 5, 10, 15, 20, 25, 30, 35]
+dataset:
+  preprocessed_geo_file: data/processed/geo_data_full.csv
+  prefer_preprocessed_geo: true

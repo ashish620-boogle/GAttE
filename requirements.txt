@@ -1,0 +1,23 @@
+# Core
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.0
+PyYAML==6.0.2
+requests==2.32.3
+protobuf==4.25.3
+tqdm==4.66.4
+psutil==6.0.0
+joblib==1.4.2
+pytest==8.2.1
+
+# ML / NLP
+tensorflow==2.16.1
+tensorflow_hub==0.16.1
+transformers==4.36.2
+torch==2.4.1
+spacy==3.7.5
+spacy-transformers==1.3.5
+
+# Viz
+matplotlib==3.9.0
+seaborn==0.13.2

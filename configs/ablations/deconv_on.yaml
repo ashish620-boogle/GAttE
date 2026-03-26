@@ -1,0 +1,4 @@
+extends: ../paper.yaml
+
+model:
+  use_deconv: true

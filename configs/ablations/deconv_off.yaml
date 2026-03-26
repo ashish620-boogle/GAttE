@@ -1,0 +1,7 @@
+extends: ../paper.yaml
+
+train:
+  lr: 0.0001
+
+model:
+  use_deconv: false
